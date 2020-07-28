@@ -1,0 +1,112 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserratwght@300;400;500;600;700&display=swap');
+.nave{
+	background: white;
+}
+.boton{
+	border: none;
+	border-radius: 20px;
+}
+
+.fondo{
+	background: #60b5bd;
+	background-color: #60b5bd;
+}
+.fondoc{
+	background: #ffa657;
+	background-color: #effa657;
+}
+	
+.colores h4{
+	color: white;
+	font: bold;
+}	
+.colores h5 {
+	color:#f28b2f; 
+	font: bold;
+}
+.colores h6 {
+	color:#60b5bd;
+}
+.colores h2, h1{
+	color:white;
+	font: bold;
+}
+
+.centro{
+	text-align:center; 
+	justify-content: center;
+	align-items: center;
+}
+
+
+.space {
+	display: inline-flex;
+	justify-content: space-around;
+}
+
+.content {
+    padding: 0 40px 40px 0;
+    width: 50%;
+}
+h2.opaci{
+	background: black;
+  	opacity: 0.5;
+}
+
+.pad{
+	padding: 20px 15px 20px 15px;	
+}
+.padi{
+	padding:10px;
+}
+.padred{
+	padding: 10px 12px 10px 12px;	
+}
+
+.caja_slider{
+	width: 50%;
+}
+.tipoparrafo{
+	font-family: 'Montserrat', sans-serif;
+}
+.tipoesp{
+	font-family: 'Comfortaa', cursive;
+}
+.gorda{
+	font-weight: 700;
+}
+.margenbtn{
+text-align: center;
+	align-content: center;
+}
+.futer{
+	background: url("../img/futer.jpg");
+	background-size: cover;
+	
+}
+
+
+@media (max-width: 575.98px) {
+
+	.caja_slider{
+		width: 100%;
+	}
+	
+	h2.opaci{
+	background: black;
+  	opacity: 0.5;
+	font-size: 20px;
+	}
+	.boton{
+		font-size: 20px;
+	}
+	
+
+}
+	
+
+
+
+
+
